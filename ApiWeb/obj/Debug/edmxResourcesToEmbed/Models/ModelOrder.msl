@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="xyzModelStoreContainer" CdmEntityContainer="xyzContext">
+    <EntitySetMapping Name="tbl_order">
+      <EntityTypeMapping TypeName="xyzModel.tbl_order">
+        <MappingFragment StoreEntitySet="tbl_order">
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="typeVehicle" ColumnName="typeVehicle" />
+          <ScalarProperty Name="request" ColumnName="request" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
